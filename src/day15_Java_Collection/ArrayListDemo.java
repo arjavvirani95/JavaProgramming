@@ -1,4 +1,4 @@
-package day15;
+package day15_Java_Collection;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package day15;
+package day15_Java_Collection;
 
 /*
  * 1) Heterogeneous data ---> allowed

@@ -1,4 +1,4 @@
-package day15;
+package day15_Java_Collection;
 
 import java.util.HashMap;
 import java.util.Map;
