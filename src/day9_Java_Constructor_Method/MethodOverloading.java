@@ -1,5 +1,17 @@
 package day9_Java_Constructor_Method;
 
+
+//5) Polymorphism(O
+//- One thing have many forms.
+//- polymorphism can achive using overloading(Run time Polymorphism) concept
+//
+//=> 4 rules are applicable in overloading
+//1) Method names should be same.                 Method()
+//2) number of parameters should be different.    Method(int a, int b)
+//3) Data type of parameters should be different. Method(int a, double b)
+//4) Order of parameters should be different.     Method(double b,int a)
+
+
 public class MethodOverloading {
 
 	int x,y,z;

@@ -1,5 +1,9 @@
 package day10_Java_Encap_StaticKey;
 
+//wrapping up of data and methods in to single unit(class). 
+//all variables should be private. 
+//we can access variables only through methods(setters & getters)
+ 
 public class Account {
 
 	private int acc_no;
