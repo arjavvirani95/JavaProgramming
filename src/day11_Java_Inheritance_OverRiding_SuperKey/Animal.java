@@ -10,9 +10,7 @@ public class Animal {
 	}
 	
 }
-
-
-
+ 
 class Dog extends Animal
 {
 	String color="black";

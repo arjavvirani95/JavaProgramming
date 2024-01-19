@@ -15,12 +15,9 @@ interface Shape
 	static void rectangle()   // static method
 	{
 		System.out.println("this is rectangle");
-	}
-	
+	} 
 }
-
-
-
+ 
 public class InheritanceDemo implements Shape
 {
 

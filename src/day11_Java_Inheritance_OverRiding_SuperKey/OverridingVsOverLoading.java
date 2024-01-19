@@ -17,6 +17,7 @@ class ABC
 
 class XYZ extends ABC
 {
+	@Override
 	void m1(int a)   // overrided method
 	{
 		System.out.println(a*a);

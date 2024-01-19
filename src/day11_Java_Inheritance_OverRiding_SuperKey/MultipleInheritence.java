@@ -16,16 +16,10 @@ class XYZ
 
 
 /*class mno extends ABC,XYZ
-{
-	
-	
+{ 
 	
 }*/
-
-
-
-
-
+ 
 public class MultipleInheritence {
 
 	public static void main(String[] args) {

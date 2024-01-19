@@ -9,15 +9,17 @@ public class Account {
 	public int getAcc_no() {
 		return acc_no;
 	}
-	public void setAcc_no(int acc_no) {
-		this.acc_no = acc_no;
+	public void setAcc_no(int acc_no) { //setting acc no which is coming from main class!
+		this.acc_no = acc_no; //this keyword refers instance variable not local variable {}
 	}
+	
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
 	}
+	
 	public double getAmount() {
 		return amount;
 	}
