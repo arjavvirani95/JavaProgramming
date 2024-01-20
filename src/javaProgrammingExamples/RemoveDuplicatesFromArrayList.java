@@ -14,9 +14,11 @@ public class RemoveDuplicatesFromArrayList {
 	 
 	        listWithDuplicateElements.add("JAVA");
 	        
-	        listWithDuplicateElements.add("JAVA");
+	        listWithDuplicateElements.add("ARJAV");
 	        
-	        listWithDuplicateElements.add("JAVA");
+	        listWithDuplicateElements.add("VIRANI");
+	        
+	        listWithDuplicateElements.add("VIRANI");
 	 
 	        listWithDuplicateElements.add("J2EE");
 	 
