@@ -13,6 +13,10 @@ public class RemoveDuplicatesFromArrayList {
 	        ArrayList<String> listWithDuplicateElements = new ArrayList<String>();
 	 
 	        listWithDuplicateElements.add("JAVA");
+	        
+	        listWithDuplicateElements.add("JAVA");
+	        
+	        listWithDuplicateElements.add("JAVA");
 	 
 	        listWithDuplicateElements.add("J2EE");
 	 
