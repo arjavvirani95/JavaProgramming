@@ -7,7 +7,7 @@ public class EvenAndOddNumbersinArray {
 		int a[]={10,20,15,3,6,7,8,2,5,7};
 		
 		int n=a.length;
-		
+		System.out.println(n);
 		System.out.print("Odd numbers:");
         for(int i = 0 ; i < n ; i++)
         {
