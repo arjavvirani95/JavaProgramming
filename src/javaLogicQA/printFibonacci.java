@@ -3,21 +3,21 @@ package javaLogicQA;
 public class printFibonacci {
 
 	public static void main(String[] args) {
-		// Print Fibonacci series i.e 1,2,3,5,8,13,21
+		// Print Fibonacci series i.e 0,1,1,2,3,5,8,13,21
 		
-		int fibbo = 0;
-		int a = 0;
-		int b = 1;
-		int i = 1;
-		while(i<8) {
-			
-			fibbo = a + b;
-			System.out.println(fibbo);
-			a = b; 
-			b = fibbo;
-			
-			i++;
+		int n = 10;
+		int series = 0;
+		int i = 0;
+		int j = 1;
+		int k = 0;
+		while(k<10) {
+			System.out.print(i+" ");
+			series = i+j;
+			i=j;
+			j=series;
+			k++;
 		}
+		
 		
 	}
 

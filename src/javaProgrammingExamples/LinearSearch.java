@@ -19,6 +19,7 @@ class LinearSearch
           break;
       }
    }
+   
    if (c == array.length)  /* Element to search isn't present */
       System.out.println(search_element + " isn't present in array.");
   }

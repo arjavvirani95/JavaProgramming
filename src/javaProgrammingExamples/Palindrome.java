@@ -1,7 +1,5 @@
 package javaProgrammingExamples;
 
-import java.util.Scanner;
-
 public class Palindrome {
 
 	public static void main(String[] args) {
@@ -13,10 +11,13 @@ public class Palindrome {
         
         // Code to reverse a number
 		while(a>0)
-		{   System.out.println("Input Number "+a);  
+		{   System.out.println("Input Number "+a); 
+		
 			lastDigit=a%10; //getting remainder  
+			
 			System.out.println("Last Digit "+lastDigit); 
-			System.out.println("Digit "+lastDigit+ " was added to sum "+(sum*10)); 
+			System.out.println("Digit "+lastDigit+ " was added to sum "+(sum*10));
+			
 			sum=(sum*10)+lastDigit;  
 			a=a/10;
 			
