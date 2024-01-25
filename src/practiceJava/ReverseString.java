@@ -22,7 +22,7 @@ public class ReverseString {
 			System.out.println("String is not palindrome");
 		}
 		
-		//Second way
+		//Second way ok
 		String originalStr = "Hello";
 		String reversedStr = "";
 
