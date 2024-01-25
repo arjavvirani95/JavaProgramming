@@ -4,6 +4,8 @@ public class ReverseString {
 
 	public static void main(String[] args) {
 		
+		
+		//first way
 		String s = "mam";
 		String rev = "";
 		
@@ -19,5 +21,15 @@ public class ReverseString {
 		}else {
 			System.out.println("String is not palindrome");
 		}
+		
+		//Second way
+		String originalStr = "Hello";
+		String reversedStr = "";
+
+		for (int i = 0; i < originalStr.length(); i++) {
+		  reversedStr = originalStr.charAt(i) + reversedStr;
+		}
+
+		System.out.println("Reversed string: "+ reversedStr);
 	}
 }
