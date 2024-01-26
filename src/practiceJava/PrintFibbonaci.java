@@ -4,7 +4,7 @@ public class PrintFibbonaci {
 
 	public static void main(String[] args) {
 		
-		int n = 10;
+		int n = 20;
 		int t1 = 0;
 		int t2 = 1;
 		
