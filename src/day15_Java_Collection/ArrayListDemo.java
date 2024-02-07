@@ -11,6 +11,20 @@ public class ArrayListDemo {
 
 	public static void main(String[] args) {
 	
+		
+		
+		
+		
+		List<Integer> numberList = new ArrayList<>();
+		numberList.add(11);
+		numberList.add(3);
+		numberList.add(2);
+		numberList.add(1);
+		System.out.println(numberList);
+		Collections.sort(numberList);
+		System.out.println(numberList);
+		System.out.println(Collections.max(numberList));
+		System.out.println("----------------------------");
 		//declaration
 		ArrayList mylist1=new ArrayList(); //It will store Heterogeneous data
 		//ArrayList <String>mylist=new ArrayList<String>();  // only strings
@@ -60,6 +74,9 @@ public class ArrayListDemo {
 		
 		mylist1.clear(); //clears the data from arraylist
 		System.out.println("After clearing "+ mylist1);  // []
+		
+		
+		
 	}
 
 }
