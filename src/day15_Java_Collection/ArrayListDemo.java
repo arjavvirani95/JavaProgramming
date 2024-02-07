@@ -1,7 +1,6 @@
 package day15_Java_Collection;
-
-import java.util.ArrayList;
-import java.util.List;
+ 
+import java.util.*;
 
 /*1) Heterogeneous data - allowed
 2) Insertion order- preserved(Index)
