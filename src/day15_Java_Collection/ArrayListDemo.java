@@ -25,6 +25,8 @@ public class ArrayListDemo {
 		System.out.println(numberList);
 		System.out.println(Collections.max(numberList));
 		System.out.println("----------------------------");
+		
+		
 		//declaration
 		ArrayList mylist1=new ArrayList(); //It will store Heterogeneous data
 		//ArrayList <String>mylist=new ArrayList<String>();  // only strings
