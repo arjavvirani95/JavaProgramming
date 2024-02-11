@@ -4,7 +4,7 @@ public class MaxAndMinElementInArray {
 
 	public static void main(String[] args) {
 		
-		int array[]={10,100,20,50,5,60};
+		int array[]={10,100,20,50,5,60,1001,3};
 		
 		//Max value in array
 		int max = array[0];
