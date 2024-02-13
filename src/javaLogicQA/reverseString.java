@@ -4,7 +4,7 @@ public class reverseString {
 
 	public static void main(String[] args) {
 		// reverse stirng "arjav"
-		String s = "arjav";
+		String s = "viraniarjav";
 		String t = "";
 		System.out.println(s.length());
 
