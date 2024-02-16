@@ -18,7 +18,7 @@ class Dog extends Animal
 	
 	void displayColor()
 	{
-		System.out.println(super.color);
+		System.out.println(super.color); //parent class variable calling
 	}
 	
 	void eat()
