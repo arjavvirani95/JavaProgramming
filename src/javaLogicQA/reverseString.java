@@ -1,10 +1,12 @@
 package javaLogicQA;
 
+import java.util.Objects;
+
 public class reverseString {
 
 	public static void main(String[] args) {
 		// reverse stirng "arjav"
-		String s = "viraniarjav";
+		String s = "arjav virani";
 		String t = "";
 		System.out.println(s.length());
 
@@ -15,11 +17,11 @@ public class reverseString {
 
 		System.out.println(t);
 
-//		if(Objects.equals(t, s)) {
-//			System.out.println("stirg is palindrome");
-//		}else {
-//			System.out.println("string is not palindrome");
-//		}
+		if(Objects.equals(t, s)) {
+			System.out.println("stirg is palindrome");
+		}else {
+			System.out.println("string is not palindrome");
+		}
 
 	}
 
