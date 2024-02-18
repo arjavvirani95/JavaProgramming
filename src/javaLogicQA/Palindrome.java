@@ -4,7 +4,7 @@ public class Palindrome {
 
 	public static void main(String[] args) {
 	
-		int number = 51515;
+		int number = 45988954;
 		int sum = 0;
 		int ld,a;
 		a=number;
