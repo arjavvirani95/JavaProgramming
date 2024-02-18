@@ -5,7 +5,7 @@ public class reverseNumber {
 	public static void main(String[] args) {
 		//reverse this number 1280521
 		
-		int a = 1280521;
+		int a = 90322309;
 		 
 		int newNumber = 0;
 		
