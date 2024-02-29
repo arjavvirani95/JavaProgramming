@@ -8,7 +8,7 @@ public class Account {
 
 	private int acc_no;
 	private String name;
-	private double amount;
+	private double amount; 
 
 	public int getAcc_no() {
 		return acc_no;
