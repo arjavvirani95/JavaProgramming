@@ -5,12 +5,8 @@ package day11_Java_Inheritance_OverRiding_SuperKey;
 	
 }
 
-
-
 class XYZ
 {
-	
-	
 	
 }*/
 

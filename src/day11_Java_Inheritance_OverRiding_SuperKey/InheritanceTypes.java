@@ -55,9 +55,6 @@ public class InheritanceTypes {
 		cobj.display();
 		cobj.show();
 		cobj.print();
-
-
-
 	}
 
 }
