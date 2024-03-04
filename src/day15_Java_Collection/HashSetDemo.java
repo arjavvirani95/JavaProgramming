@@ -25,6 +25,7 @@ public class HashSetDemo {
 		myset.add(100);
 		myset.add(null);
 		myset.add(null);
+		myset.add(11);
 		
 		System.out.println(myset); //[null, 100, 10.5, welcome]   // insertion order not preserved
 		
