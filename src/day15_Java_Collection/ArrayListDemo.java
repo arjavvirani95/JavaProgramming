@@ -17,9 +17,9 @@ public class ArrayListDemo {
 		numberList.add(2);
 		numberList.add(1);
 		System.out.println(numberList);
-		Collections.sort(numberList);
+		Collections.sort(numberList); //sorting array 
 		System.out.println(numberList);
-		System.out.println(Collections.max(numberList));
+		System.out.println(Collections.max(numberList)); //will print max number from list
 		System.out.println("----------------------------");
 
 
@@ -37,6 +37,7 @@ public class ArrayListDemo {
 		mylist1.add(100);
 		mylist1.add(null);
 		mylist1.add(null);
+		mylist1.add(10.5);
 
 		//size of arraylist
 		int myListSize = mylist1.size();
@@ -45,13 +46,13 @@ public class ArrayListDemo {
 		System.out.println(mylist1);  //[100, 10.5, welcome, true, 100, null, null]
 
 		//remove value from arraylist
-		mylist1.remove(3);
-		System.out.println("After removing element:"+mylist1);  //[100, 10.5, welcome, 100, null, null]
+		mylist1.remove(2);
+		System.out.println("After removing element:"+mylist1);  
 
 		//inserting new element in the middle of the list
-		mylist1.add(2,"java");
+		mylist1.add(3,"java");
 
-		System.out.println("after insertion:"+mylist1);  //[100, 10.5, java, welcome, 100, null, null]
+		System.out.println("after insertion:"+mylist1);  
 
 		System.out.println(mylist1.get(3));
 
