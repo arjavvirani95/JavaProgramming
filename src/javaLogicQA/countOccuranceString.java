@@ -5,7 +5,7 @@ public class countOccuranceString {
 	public static void main(String[] args) {
 		
 		
-		int count = countStringOccurances("riddhi",'a');
+		int count = countStringOccurances("arjavkumar airani",'a');
 	}
 
 	private static int countStringOccurances(String name, char fchar) {
