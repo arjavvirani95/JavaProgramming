@@ -6,7 +6,7 @@ public class reverseString {
 
 	public static void main(String[] args) {
 		// reverse stirng "arjav"
-		String s = "arjav virani";
+		String s = "mam mam";
 		String t = "";
 		System.out.println(s.length());
 
@@ -18,7 +18,7 @@ public class reverseString {
 		System.out.println(t);
 
 		if(Objects.equals(t, s)) {
-			System.out.println("stirg is palindrome");
+			System.out.println("string is palindrome");
 		}else {
 			System.out.println("string is not palindrome");
 		}
