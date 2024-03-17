@@ -34,12 +34,12 @@ public class HeirarchyInheritanceDemo {
 	public static void main(String[] args) {
 
 		Child1 c1=new Child1(); //creating 1st child class object
-		c1.display(100); //parent extended into 1st child class, calling parent class method through child class object
-		c1.show(200);
+		c1.display(1); //parent extended into 1st child class, calling parent class method through child class object
+		c1.show(11);
 
 		Child2 c2=new Child2();
-		c2.display(10);
-		c2.print(20);
+		c2.display(2);
+		c2.print(22);
 
 	}
 
