@@ -2,7 +2,7 @@ package day11_Java_Inheritance_OverRiding_SuperKey;
 
 class A
 {
-	int a;
+	String a;
 
 	void display()
 	{
@@ -13,7 +13,7 @@ class A
 
 class B extends A
 {
-	int b;
+	String b;
 
 	void show()
 	{
@@ -24,7 +24,7 @@ class B extends A
 
 class C extends B
 {
-	int c;
+	String c;
 
 	void print()
 	{
@@ -48,9 +48,9 @@ public class InheritanceTypes {
 
 		C cobj=new C();
 
-		cobj.a=10;
-		cobj.b=20;
-		cobj.c=30;
+		cobj.a="Class A Value by Class C Object";
+		cobj.b="Class B Value by Class C Object";
+		cobj.c="Class C Value by Class C Object";
 
 		cobj.display();
 		cobj.show();
