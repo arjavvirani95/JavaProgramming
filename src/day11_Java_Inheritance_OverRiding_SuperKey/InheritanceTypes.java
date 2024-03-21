@@ -37,16 +37,16 @@ public class InheritanceTypes {
 
 	public static void main(String[] args) {
 
-		/*B bobj=new B();
+		B bobj=new B();
 
-		bobj.a=100;
-		bobj.b=200;
+		bobj.a="Class A Value by Class B Object";
+		bobj.b="Class B Value by Class B Object";
 
 		bobj.display();
-		bobj.show();*/
+		bobj.show();
 
 
-		C cobj=new C();
+		/*C cobj=new C();
 
 		cobj.a="Class A Value by Class C Object";
 		cobj.b="Class B Value by Class C Object";
@@ -54,7 +54,7 @@ public class InheritanceTypes {
 
 		cobj.display();
 		cobj.show();
-		cobj.print();
+		cobj.print();*/
 	}
 
 }
