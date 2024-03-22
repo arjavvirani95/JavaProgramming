@@ -21,7 +21,7 @@ class AXIS extends Bank
 {
 	double roi()
 	{
-		return 11.5;
+		return 9.75;
 	}
 }
 
