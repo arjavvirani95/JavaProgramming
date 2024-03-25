@@ -35,9 +35,9 @@ public class OverridingVsOverLoading {
 	public static void main(String[] args) {
 
 		XYZ xyz=new XYZ();
-
-
-		xyz.m1(100);
+		//Override method will be called
+		xyz.m1(3);
+		//One argument m2 method will be call
 		xyz.m2(10);
 		xyz.m2(10,20);
 
