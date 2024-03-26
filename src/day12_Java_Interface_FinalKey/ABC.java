@@ -2,7 +2,7 @@ package day12_Java_Interface_FinalKey;
 
 public interface ABC {
 
-	int x=100;
+	int x=10;
 	
 	void m1();
 }
