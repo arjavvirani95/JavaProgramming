@@ -7,8 +7,9 @@ public class TestSuper {
 		
 		Dog d=new Dog(); //Derived class object 
 		d.displayColor(); //Derived class method calling
-		
-		d.eat();
+		Animal a= new Animal();
+		a.eat(); //Base Class object method called
+		d.eat(); //derived class method calling
 		
 	}
 
