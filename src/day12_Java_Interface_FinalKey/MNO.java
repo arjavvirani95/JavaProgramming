@@ -2,7 +2,7 @@ package day12_Java_Interface_FinalKey;
 
 public class MNO {
 
-	int z=300;
+	int z=30;
 	
 	void m3()
 	{
