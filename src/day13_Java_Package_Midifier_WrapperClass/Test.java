@@ -26,7 +26,7 @@ public class Test {
 		System.out.println("this is m1 method....");
 	}*/
 	
-	public int x=100;
+	public int x=4102024;
 	
 	public void m1()
 	{

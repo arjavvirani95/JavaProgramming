@@ -2,8 +2,8 @@ package day12_Java_Interface_FinalKey;
 
 interface Shape
 {
-	int lenght=10;   // final & static
-	int width=20;    // final & static
+	int lenght=20;   // final & static
+	int width=200;    // final & static
 	
 	void circle();   // abstract method- un-implemented
 	
