@@ -16,7 +16,7 @@ public class HandleExceptions {
 		
 		try
 		{
-		System.out.println(100/num);  //ArithmeticException
+			System.out.println(100/num);  //ArithmeticException
 		}
 		catch(ArithmeticException e)
 		{
