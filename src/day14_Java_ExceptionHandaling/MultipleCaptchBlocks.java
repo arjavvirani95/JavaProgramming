@@ -14,11 +14,7 @@ public class MultipleCaptchBlocks {
 		System.out.println("Enter a number:");
 		int num=sc.nextInt();
 		
-		
 		String s=null;
-		
-		
-		
 		
 		/*try
 		{
