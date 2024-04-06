@@ -7,7 +7,7 @@ public class FinallyBlock {
 		System.out.println("Program is  started..");
 		System.out.println("Program is  in progress..");
 		
-		String s=null;
+		String s="Java";
 		
 		try
 		{

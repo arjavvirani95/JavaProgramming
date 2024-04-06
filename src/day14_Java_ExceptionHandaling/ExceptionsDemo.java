@@ -38,8 +38,12 @@ public class ExceptionsDemo {
 		//Example3
 		
 		String s="welcome";
-		int num=Integer.parseInt(s); //NumberFormatException
-		System.out.println(num);
+		try {
+			int num=Integer.parseInt(s); //NumberFormatException
+			System.out.println(num);
+		}catch(NumberFormatException e) {
+			e.printStackTrace();
+		}
 				
 		System.out.println("Program is  completed..");
 		System.out.println("Program is  exited..");
