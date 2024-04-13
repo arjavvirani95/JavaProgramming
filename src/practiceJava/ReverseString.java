@@ -6,7 +6,7 @@ public class ReverseString {
 		
 		
 		//first way
-		String s = "kak";
+		String s = "mam";
 		String rev = "";
 		
 		System.out.println(s.length()); // 4
