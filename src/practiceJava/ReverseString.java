@@ -6,7 +6,7 @@ public class ReverseString {
 		
 		
 		//first way
-		String s = "june";
+		String s = "men";
 		String rev = "";
 		
 		System.out.println(s.length()); // 4
