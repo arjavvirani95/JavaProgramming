@@ -6,7 +6,7 @@ public class ReverseString {
 		
 		
 		//first way
-		String s = "mam";
+		String s = "kinanik";
 		String rev = "";
 		
 		System.out.println(s.length()); // 4
@@ -23,7 +23,7 @@ public class ReverseString {
 		}
 		
 		//Second way ok
-		String originalStr = "Hello";
+		String originalStr = "Arjav";
 		String reversedStr = "";
 
 		for (int i = 0; i < originalStr.length(); i++) {
