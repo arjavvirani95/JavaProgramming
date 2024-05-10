@@ -4,7 +4,7 @@ public class StaticMain {
 
 	public static void main(String[] args) 
 	{
-		//1) static methods can access static stuff directly ( without object).
+		//1) static methods can access static stuff directly (without object).
 
 		System.out.println(StaticExample.a);
 		//System.out.println(b); // incorrect, bcoz b is non-static varaible
