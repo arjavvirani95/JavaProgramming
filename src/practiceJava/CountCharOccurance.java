@@ -5,7 +5,7 @@ public class CountCharOccurance {
 	public static void main(String[] args) {
 		
 		
-		char fchar = 'v';
+		char fchar = 'n';
 		String s = "arjav virani";
 		
 		int count = 0;
