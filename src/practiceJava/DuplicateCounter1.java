@@ -6,7 +6,7 @@ public class DuplicateCounter1 {
 
 	public static void main(String[] args) {
 		
-		String[] s = {"000", "123", "000", "123", "234", "111"};
+		String[] s = {"000", "123", "000", "123", "234", "000"};
 		 
 		HashMap<String, Integer> countmap = new HashMap<>();
 		
