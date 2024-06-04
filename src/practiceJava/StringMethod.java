@@ -4,7 +4,7 @@ public class StringMethod {
 
 	public static void main(String[] args) {
 		
-		String str1 = "Java";
+		String str1 = "python";
 	    String str2 = "python";
 	    String str3 = new String("Java");
 
