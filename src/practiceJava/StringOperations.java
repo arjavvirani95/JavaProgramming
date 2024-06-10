@@ -19,7 +19,7 @@ public class StringOperations {
 		System.out.println(name+lname);
 		
 		//trim() remove blank space from string
-		String strim = "   Marvel   ";
+		String strim = "   Marvel       ";
 		System.out.println(strim.length());
 		System.out.println(strim.trim());
 		System.out.println(strim.trim().length());
