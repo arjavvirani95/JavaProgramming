@@ -26,7 +26,7 @@ public class StringOperations {
 		
 		
 		//charAt() return the index of each character
-		String s1 = "Welcome";
+		String s1 = "Java";
 		System.out.println(s1.charAt(1)); // e
 		
 		//check and print boolean value if character is present or not
