@@ -11,7 +11,7 @@ public class GeneratingRandomNumbers {
 	       
 		 	Random random = new Random();
 		 	
-		 	for(int i = 0; i < 10; i++) {
+		 	for(int i = 0; i < 5; i++) {
 		 		int num8 = random.nextInt(90000000) + 10000000;
 			 	System.out.println(num8);
 			 	
