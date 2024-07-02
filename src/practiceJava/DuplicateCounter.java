@@ -7,9 +7,9 @@ public class DuplicateCounter {
     	
     	ArrayList<String> ar = new ArrayList<String>();
     	
-    	ar.add("Arjavkumar"); 
+    	ar.add("Arjav"); 
     	ar.add("Virani");
-    	ar.add("Manjibhai");
+    	ar.add("arjav");
     	
     	for(String s1: ar) {
     		System.out.println(s1);
